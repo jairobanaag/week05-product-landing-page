@@ -6,7 +6,7 @@
             <div>
                 <div class="flex items-center gap-2 mb-4">
                     <span class="text-2xl">☕</span>
-                    <span class="text-lg font-bold text-white">Wake & Brew</span>
+                    <span class="text-lg font-bold text-white">Type C Cafe</span>
                 </div>
                 <p class="text-sm text-gray-400 leading-relaxed max-w-[220px]">
                     Small-batch roasted coffee, brewed with care, served with a smile.
@@ -16,34 +16,34 @@
             <div>
                 <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wide">Quick Links</h4>
                 <ul class="space-y-3 text-sm">
-                    <li><a href="#home" class="hover:text-violet-400 transition">Home</a></li>
-                    <li><a href="#features" class="hover:text-violet-400 transition">Features</a></li>
-                    <li><a href="#pricing" class="hover:text-violet-400 transition">Pricing</a></li>
-                    <li><a href="#testimonials" class="hover:text-violet-400 transition">Testimonials</a></li>
+                    <li><a href="#home" class="hover:text-green-400 transition">Home</a></li>
+                    <li><a href="#features" class="hover:text-green-400 transition">Features</a></li>
+                    <li><a href="#pricing" class="hover:text-green-400 transition">Pricing</a></li>
+                    <li><a href="#testimonials" class="hover:text-green-400 transition">Testimonials</a></li>
                 </ul>
             </div>
 
             <div>
                 <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wide">Contact</h4>
                 <ul class="space-y-3 text-sm text-gray-400">
-                    <li>123 Barako Street, Batangas City</li>
-                    <li>hello@wakeandbrew.com</li>
-                    <li>+63 900 000 0000</li>
+                    <li>Pickle Palace, Panganiban Compound, Calios, Santa Cruz, Philippines, 4009</li>
+                    <li>muzneedecena@gmail.com</li>
+                    <li>0976 326 4334</li>
                 </ul>
             </div>
 
             <div>
                 <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wide">Follow Us</h4>
                 <div class="flex gap-3">
-                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-violet-600 transition text-sm" aria-label="Facebook">FB</a>
-                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-violet-600 transition text-sm" aria-label="Instagram">IG</a>
-                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-violet-600 transition text-sm" aria-label="TikTok">TT</a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-600 transition text-sm" aria-label="Facebook">FB</a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-600 transition text-sm" aria-label="Instagram">IG</a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-600 transition text-sm" aria-label="TikTok">TT</a>
                 </div>
             </div>
         </div>
 
-                <div class="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-500">
-            <p>&copy; {{ date('Y') }} Wake & Brew Coffee Co. All rights reserved.</p>
+        <div class="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-500">
+            <p>&copy; {{ date('Y') }} Type C Cafe. All rights reserved.</p>
         </div>
     </div>
 </footer>
