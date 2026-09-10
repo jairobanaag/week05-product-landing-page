@@ -13,12 +13,12 @@
     <div class="p-3">
         <div class="flex items-center justify-between mb-1">
             <h3 class="font-semibold text-black text-sm">{{ $name }}</h3>
-            <span class="text-xs text-violet-600 font-semibold">★ {{ $rating }}</span>
+            <span class="text-xs text-green-600 font-semibold">★ {{ $rating }}</span>
         </div>
         <p class="text-xs text-gray-500 leading-relaxed mb-2 line-clamp-2">{{ $description }}</p>
         <div class="flex items-center justify-between">
-            <span class="text-sm font-bold text-violet-700">{{ $price }}</span>
-            <a href="#pricing" class="text-xs font-semibold text-violet-700 hover:text-violet-900">More →</a>
+            <span class="text-sm font-bold text-green-700">{{ $price }}</span>
+            <a href="#pricing" class="text-xs font-semibold text-green-700 hover:text-green-900">More →</a>
         </div>
     </div>
 </div>
