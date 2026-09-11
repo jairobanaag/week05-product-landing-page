@@ -10,6 +10,7 @@
             <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
                 <a href="#home" class="hover:text-white transition">Home</a>
                 <a href="#features" class="hover:text-white transition">Features</a>
+                <a href="#menu" class="hover:text-white transition">Menu</a>    
                 <a href="#pricing" class="hover:text-white transition">Pricing</a>
                 <a href="#testimonials" class="hover:text-white transition">Testimonials</a>
                 <a href="#contact" class="hover:text-white transition">Contact</a>
