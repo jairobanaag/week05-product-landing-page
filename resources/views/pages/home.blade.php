@@ -55,41 +55,80 @@
         </div>
     </section>
 
-    <section class="py-16 md:py-24 bg-white/60 backdrop-blur-sm">
+    {{-- Menu Categories --}}
+    <section id="menu" class="py-16 md:py-24 bg-white/60 backdrop-blur-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-12">
-                <span class="text-green-700 font-semibold text-sm uppercase tracking-wide">See It In Action</span>
-                <h2 class="text-3xl md:text-4xl font-extrabold text-black mt-2">See Type C Cafe in action</h2>
-                <p class="text-gray-600 mt-4">
-                    Preview your order, track your rewards, and discover new blends —
-                    all from our simple, intuitive dashboard and mobile app.
-                </p>
+                <span class="text-green-700 font-semibold text-sm uppercase tracking-wide">Explore the Menu</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-black mt-2">Menu Categories</h2>
             </div>
 
-            <div class="grid sm:grid-cols-3 gap-4 mb-12 max-w-3xl mx-auto">
-                <div class="flex items-center gap-2 bg-white rounded-xl px-4 py-3 shadow-sm border border-gray-100">
-                    <span class="text-green-600">✓</span>
-                    <span class="text-sm text-gray-700">Real-time order tracking</span>
-                </div>
-                <div class="flex items-center gap-2 bg-white rounded-xl px-4 py-3 shadow-sm border border-gray-100">
-                    <span class="text-green-600">✓</span>
-                    <span class="text-sm text-gray-700">Personalized recommendations</span>
-                </div>
-                <div class="flex items-center gap-2 bg-white rounded-xl px-4 py-3 shadow-sm border border-gray-100">
-                    <span class="text-green-600">✓</span>
-                    <span class="text-sm text-gray-700">One-tap reordering</span>
-                </div>
-            </div>
+            <div class="grid md:grid-cols-3 gap-0 rounded-2xl overflow-hidden shadow-lg">
 
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="https://placehold.co/500x350/14532d/ffffff?text=Product+Screenshot" alt="Product screenshot" class="w-full h-full object-cover">
+                <div class="bg-gray-50 p-8">
+                    <p class="text-lg font-bold text-black">All Time Favorites</p>
+                    <p class="text-sm text-gray-500 mb-6">From ₱99</p>
+
+                    <ul class="space-y-3 text-sm text-gray-700 mb-8">
+                        <li class="flex justify-between border-b border-gray-200 pb-2">
+                            <span>Mango Paradise</span><span>₱139</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-200 pb-2">
+                            <span>Iced Hibiscus Tea</span><span>₱99</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-200 pb-2">
+                            <span>Classic Iced Coffee</span><span>₱109</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Choco Overload</span><span>₱149</span>
+                        </li>
+                    </ul>
+
+                    <x-button href="#order" variant="dark" class="w-full">Order Now</x-button>
                 </div>
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="https://placehold.co/500x350/15803d/ffffff?text=Dashboard+Preview" alt="Dashboard preview" class="w-full h-full object-cover">
+
+                <div class="bg-green-700 text-white p-8">
+                    <p class="text-lg font-bold">Signature Drinks</p>
+                    <p class="text-sm text-green-200 mb-6">From ₱129</p>
+
+                    <ul class="space-y-3 text-sm mb-8">
+                        <li class="flex justify-between border-b border-white/20 pb-2">
+                            <span>Salted Caramel Coffee</span><span>₱129</span>
+                        </li>
+                        <li class="flex justify-between border-b border-white/20 pb-2">
+                            <span>Alamang Shake</span><span>₱149</span>
+                        </li>
+                        <li class="flex justify-between border-b border-white/20 pb-2">
+                            <span>Brown Sugar Latte</span><span>₱139</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Ube Cream Frappe</span><span>₱159</span>
+                        </li>
+                    </ul>
+
+                    <x-button href="#order" variant="secondary" class="w-full">Order Now</x-button>
                 </div>
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="https://placehold.co/500x350/000000/ffffff?text=Mobile+View" alt="Mobile view" class="w-full h-full object-cover">
+
+                <div class="bg-gray-50 p-8">
+                    <p class="text-lg font-bold text-black">Hot Brews</p>
+                    <p class="text-sm text-gray-500 mb-6">From ₱89</p>
+
+                    <ul class="space-y-3 text-sm text-gray-700 mb-8">
+                        <li class="flex justify-between border-b border-gray-200 pb-2">
+                            <span>Americano</span><span>₱89</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-200 pb-2">
+                            <span>Cafe Latte</span><span>₱99</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-200 pb-2">
+                            <span>Cappuccino</span><span>₱109</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Mocha</span><span>₱119</span>
+                        </li>
+                    </ul>
+
+                    <x-button href="#order" variant="dark" class="w-full">Order Now</x-button>
                 </div>
             </div>
         </div>
@@ -97,34 +136,40 @@
 
     <section id="pricing" class="py-16 md:py-24 bg-transparent">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-2xl mx-auto mb-16">
-                <span class="text-green-700 font-semibold text-sm uppercase tracking-wide">Membership</span>
-                <h2 class="text-3xl md:text-4xl font-extrabold text-black mt-2">Choose your Type C plan</h2>
-                <p class="text-gray-600 mt-4">Pick the plan that matches your daily coffee ritual.</p>
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-green-700 font-semibold text-sm uppercase tracking-wide">Our Menu</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-black mt-2">More coffee to love</h2>
+                <p class="text-gray-600 mt-4">Explore more of our handcrafted drinks, made fresh daily.</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <x-pricing-card
-                    plan="Starter"
-                    icon="☕"
-                    tagline="Perfect for casual sippers"
-                    price="₱199"
-                    :features="['1 free drink/month', 'Standard rewards', 'App ordering']"
+             <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+                <x-product-card
+                    image="{{ asset('images/mango-paradise.png') }}"
+                    name="Mango Paradise"
+                    description="Our crowd favorite — creamy mango shake topped with whipped cream and caramel drizzle."
+                    price="₱139"
+                    rating="4.9"
                 />
-                <x-pricing-card
-                    plan="Professional"
-                    icon="🥤"
-                    tagline="For your everyday brew habit"
-                    price="₱399"
-                    :featured="true"
-                    :features="['3 free drinks/month', 'Double rewards points', 'Priority pickup', 'Birthday treat']"
+                <x-product-card
+                    image="{{ asset('images/iced-hibiscus-tea.png') }}"
+                    name="Iced Hibiscus Tea"
+                    description="A refreshing floral tea, back by popular demand."
+                    price="₱99"
+                    rating="4.8"
                 />
-                <x-pricing-card
-                    plan="Enterprise"
-                    icon="🏆"
-                    tagline="Unlimited coffee, VIP treatment"
-                    price="₱799"
-                    :features="['Unlimited drip coffee', 'VIP rewards tier', 'Free delivery', 'Dedicated support']"
+                <x-product-card
+                    image="{{ asset('images/salted-caramel-coffee.png') }}"
+                    name="Salted Caramel Coffee"
+                    description="Bold iced coffee finished with a salted caramel drizzle."
+                    price="₱129"
+                    rating="4.9"
+                />
+                <x-product-card
+                    image="{{ asset('images/alamang-shake.png') }}"
+                    name="Alamang Shake"
+                    description="A unique local favorite, topped with our freshly picked green mango."
+                    price="₱149"
+                    rating="4.9"
                 />
             </div>
         </div>
